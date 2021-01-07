@@ -11,12 +11,16 @@
 
     <!-- INDEX -->
     <link rel="stylesheet" href="css/style.css">
+
     <!-- HEADER --> 
     <link rel="stylesheet" href="css/header.css">
     <!-- MAIN --> 
     <link rel="stylesheet" href="css/accueil.css">
     <!-- FOOTER --> 
     <link rel="stylesheet" href="css/footer.css">
+
+    <!-- TABLETTE -->
+    <link rel="stylesheet" href="css/tablette.css">
 
     <!-- ANIMATE CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
@@ -35,12 +39,12 @@
 <body>
 
     <!-- HEADER -->
-    <header class="container">
+    <header class="container-fluid">
         <?php require('header.php'); ?>
     </header>
 
     <!-- MAIN -->
-    <main>
+    <main class="container-fluid p-0">
 
         <section class="container-fluid introduction">
 
@@ -101,7 +105,7 @@
 
             <div class="row">
 
-                <div class="container-fluid col-xs-6 col-md-4 p-5 d-flex flex-column justify-content-center workshop_encart">
+                <div class="container-fluid col-md-4 p-5 d-flex flex-column justify-content-center workshop_encart">
 
                     <h3 class="pb-2">Workshops & Guest Artists</h3>
 
@@ -113,7 +117,7 @@
 
                 </div>
 
-                <div class="container-fluid col-xs-12 col-md-8 workshop_image"></div>
+                <div class="container-fluid col-md-8 workshop_image"></div>
 
             </div>
 
@@ -155,9 +159,9 @@
 
                 </div>
 
-                <div class="row mb-2 mt-2 photos_encart">
+                <div class="row m-2 photos_encart">
 
-                    <div class="col-sm lot lot_1">
+                    <div class="col lot lot_1">
                         
                         <img src="images/1.jpg" alt="Ensemble de pots en terre brutes">
 
@@ -167,7 +171,7 @@
                     
                     </div>
 
-                    <div class="col-sm lot lot_2">
+                    <div class="col lot lot_2">
                         
                         <img src="images/2.jpg" alt="Ensemble de pots en terre blanc">
 
@@ -180,14 +184,14 @@
                     
                     </div>
 
-                    <div class="col-sm lot lot_3">
-                        
+                    <div class="col lot lot_3">
+                            
                         <img src="images/3.jpg" alt="Deux pots en terre encastrés">
 
                         <h5 class='mt-3'>Purple Chair</h5>
 
                         <p>£87.00</p>
-                    
+
                     </div>
 
                 </div>

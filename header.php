@@ -1,4 +1,4 @@
-<nav class="navbar navbar-expand-lg shift">
+<nav class="navbar mt-3 navbar-expand-lg shift">
 
     <a class="navbar-brand" href="#">Pottery Studio</a>
 
