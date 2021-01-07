@@ -1,0 +1,82 @@
+footer {
+    height: 700px;
+    background-color: #1d1d1b;
+    text-align: center;
+}
+
+.subscribe {
+    width: 30%;
+    color: white;
+}
+
+.subscribe hr {
+    width: 10%;
+    border: 0.05rem solid orange;
+}
+
+.subscribe p {
+    font-size: 0.8rem;
+    font-weight: 200;
+}
+
+.subscribe form {
+    width: 90%;
+    height: 75px;
+}
+
+.subscribe form input {
+    padding: 0.2rem 0.8rem;
+    border: none;
+    border-radius: 0.1rem;
+}
+
+.subscribe form input::placeholder {
+    font-size: 0.7rem;
+}
+
+.subscribe form button {
+    border: none;
+    background-color: orange;
+    padding: 0.5rem;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 400;
+    letter-spacing: 0.1rem;
+    font-size: 0.7rem;
+    border-radius: 0.1rem;
+}
+
+.ligne {
+    width: 60%;
+}
+
+.ligne hr {
+    border-top: solid 0.1em rgb(41, 41, 41);
+}
+
+.coordonnees {
+    color: white;
+    width: 65%;
+}
+
+.coordonnees h4 {
+    font-size: 1rem;
+}
+
+.coordonnees p {
+    font-size: 0.7rem;
+    font-weight: 200;
+    line-height: 1.3rem;
+}
+
+.coordonnees a {
+    color: white;
+}
+
+.follow {
+    width: 20%;
+}
+
+.follow img {
+    width: 100%;
+}

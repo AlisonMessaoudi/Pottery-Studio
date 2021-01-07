@@ -1,0 +1,48 @@
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) 
+{
+
+    .menu {
+        background-color: rgba(18, 17, 17, 0.283);
+    }
+
+    .about_take, .private_events, .workshop {
+        height: 450px;
+    }
+
+    .about_take p, .workshop p, .private_events p, .coordonnees {
+        width: 100%;
+    }
+
+    .take_class .btn_site, .private_events .btn_site, .workshop .btn_site, .subscribe {
+        width: 60%;
+    }
+
+    .art_sale .btn_site {
+        width: 30%;
+    }
+
+    .workshop_encart, .private_encart {
+        min-width: 45%;
+    }
+
+    .workshop_image, .private_image {
+        max-width: 55%;
+    }
+
+    .lot {
+        min-width: 25%;
+    }
+
+    .lot img {
+        max-width: 100%;
+    }
+
+    .happy_students {
+        background-position: right;
+    }
+
+    footer {
+        height: 650px;
+    }
+
+}

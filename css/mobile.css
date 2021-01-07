@@ -1,0 +1,73 @@
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) 
+{
+
+    .typewriter h2 {
+        font-size: 2.3rem;
+    }
+
+    nav {
+        min-width: 100%;
+    }
+
+    .about_take, .private_events, .workshop {
+        height: 450px;
+        min-height: 900px;
+    }
+
+    .about_take p, .workshop p, .private_events p, .coordonnees {
+        width: 100%;
+    }
+
+    .subscribe {
+        width: 80%;
+    }
+
+    .introduction .btn_site, .take_class .btn_site, .private_events .btn_site, .workshop .btn_site {
+        width: 60%;
+    }
+
+    .art_sale .btn_site {
+        width: 40%;
+    }
+
+    .workshop_encart, .workshop_image, .private_image, .private_encart {
+        min-width: 45%;
+        height: 450px;
+    }
+
+    .workshop_encart {
+        order: 2;
+    }
+
+    .workshop_image {
+        order: 1;
+    }
+
+    .lot {
+        min-width: 25%;
+    }
+
+    .lot img {
+        max-width: 100%;
+    }
+
+    .happy_encart, .bloc_text {
+        max-width: 80%;
+    }
+
+    .happy_encart {
+        left: 10%;
+    }
+
+    .happy_students {
+        background-position: right;
+    }
+
+    footer {
+        height: 900px;
+    }
+
+    .follow {
+        width: 80%;
+    }
+}
