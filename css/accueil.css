@@ -1,240 +1,240 @@
 /* SECTION 1 : INTRODUCTION */
 
-    .introduction {
-        padding: 0px;
-        position: relative;
-        height: 600px;
-        background-image: url(IMAGES/poterie_accueil.jpg);
-        background-repeat: no-repeat;
-        background-size: cover;
+.introduction {
+    padding: 0px;
+    position: relative;
+    height: 600px;
+    background-image: url(IMAGES/poterie_accueil.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bloc_text {
+    position: absolute;
+    top: 45%;
+    left: 12.2%;
+    width: 440px;
+    height: 210px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/* Effet Typing texte */
+
+.typewriter h2 {
+    font-size: 3.5rem;
+    color: white;
+    overflow: hidden; 
+    border-right: .15em solid orange; 
+    white-space: nowrap; 
+    width: 95%;
+    animation: 
+    typing 4.5s steps(40, end),
+    blink-caret 0.9s step-end infinite;
+}
+
+    /* The typing effect */
+    @keyframes typing {
+        from { width: 0 }
+        to { width: 90% }
+    }
+    
+    /* The typewriter cursor effect */
+    @keyframes blink-caret {
+        from, to { border-color: transparent }
+        50% { border-color: orange; }
     }
 
-    .bloc_text {
-        position: absolute;
-        top: 45%;
-        left: 12.2%;
-        width: 440px;
-        height: 210px;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-    }
+    /* source : https://css-tricks.com/snippets/css/typewriter-effect/ */
 
-    /* Effet Typing texte */
+.bloc_text p {
+    color: white;
+}
 
-    .typewriter h2 {
-        font-size: 3.5rem;
-        color: white;
-        overflow: hidden; 
-        border-right: .15em solid orange; 
-        white-space: nowrap; 
-        width: 95%;
-        animation: 
-        typing 4.5s steps(40, end),
-        blink-caret 0.9s step-end infinite;
-    }
+/* BOUTON */
 
-        /* The typing effect */
-        @keyframes typing {
-            from { width: 0 }
-            to { width: 90% }
-        }
-        
-        /* The typewriter cursor effect */
-        @keyframes blink-caret {
-            from, to { border-color: transparent }
-            50% { border-color: orange; }
-        }
+.btn_site {
+    border: none;
+    background-color: orange;
+    padding: 8px 30px;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    width: 40%;
+}
 
-        /* source : https://css-tricks.com/snippets/css/typewriter-effect/ */
-
-    .bloc_text p {
-        color: white;
-    }
-
-    /* BOUTON */
-
-    .btn_site {
-        border: none;
-        background-color: orange;
-        padding: 8px 30px;
-        text-transform: uppercase;
-        letter-spacing: 0.2em;
-        width: 40%;
-    }
-
-    .btn_site a {
-        color: white;
-    }
+.btn_site a {
+    color: white;
+}
 
 /* SECTION 2 : ABOUT */
 
-    .about_take {
-        color: white;
-        height: 500px;
-        text-align: center;
-    }
+.about_take {
+    color: white;
+    height: 500px;
+    text-align: center;
+}
 
-    .about_take .row {
-        height: 100%;
-    }
+.about_take .row {
+    height: 100%;
+}
 
-    .about_studio h3, .take_class h3, .workshop h3, .private_events h3, .art_sale h3 {
-        font-size: 1.8rem;
-    }
+.about_studio h3, .take_class h3, .workshop h3, .private_events h3, .art_sale h3 {
+    font-size: 1.8rem;
+}
 
-    .about_studio p, .take_class p, .private_events p, .art_sale p, .workshop p, .happy_encart p {
-        font-size: 0.8rem;
-        font-weight: 200;
-        width: 65%;
-        line-height: 1.4rem;
-    }
+.about_studio p, .take_class p, .private_events p, .art_sale p, .workshop p, .happy_encart p {
+    font-size: 0.8rem;
+    font-weight: 200;
+    width: 65%;
+    line-height: 1.4rem;
+}
 
-    .about_take hr, .workshop hr, .private_events hr, .art_sale hr, .happy_encart hr {
-        width: 5%;
-        border: 0.05rem solid orange;
-    }
+.about_take hr, .workshop hr, .private_events hr, .art_sale hr, .happy_encart hr {
+    width: 5%;
+    border: 0.05rem solid orange;
+}
 
-    /* BLOC 1 : About Our Studio */
-    .about_studio {
-        background-color: rgb(16, 16, 16);
-    }
+/* BLOC 1 : About Our Studio */
+.about_studio {
+    background-color: rgb(16, 16, 16);
+}
 
-    /* BLOC 2 : Take a Class */
-    .take_class, .private_encart {
-        background-color: rgb(31, 31, 31);
-    }
+/* BLOC 2 : Take a Class */
+.take_class, .private_encart {
+    background-color: rgb(31, 31, 31);
+}
 
-    .take_class p {
-        text-decoration: underline orange;
-    }
+.take_class p {
+    text-decoration: underline orange;
+}
 
-    .take_class .btn_site {
-        width: 25%;
-        padding: 0.5rem 0;
-    }
+.take_class .btn_site {
+    width: 25%;
+    padding: 0.5rem 0;
+}
 
-    .take_class .btn_site a, .workshop .btn_site a, .private_events .btn_site a, .art_sale .btn_site a {
-        font-size: 0.7rem;
-        letter-spacing: 0.1rem;
-    }
+.take_class .btn_site a, .workshop .btn_site a, .private_events .btn_site a, .art_sale .btn_site a {
+    font-size: 0.7rem;
+    letter-spacing: 0.1rem;
+}
 
 /* SECTION 3 : WORKSHOP */
 
-    .workshop, .private_events {
-        height: 500px;
-    }
+.workshop, .private_events {
+    height: 500px;
+}
 
-    .workshop .row, .private_events .row {
-        height: 100%;
-    }
+.workshop .row, .private_events .row {
+    height: 100%;
+}
 
-    .workshop p {
-        width: 80%;
-    }
+.workshop p {
+    width: 80%;
+}
 
-    .workshop hr, .private_events hr {
-        width: 10%;
-    }
+.workshop hr, .private_events hr {
+    width: 10%;
+}
 
-    .workshop .btn_site, .private_events .btn_site {
-        width: 40%;
-        padding: 8px 10px;
-    }
+.workshop .btn_site, .private_events .btn_site {
+    width: 40%;
+    padding: 8px 10px;
+}
 
-    .workshop_image {
-        background-image: url('images/02_img.jpg');
-        background-size: cover;
-        background-repeat: no-repeat;
-    }
+.workshop_image {
+    background-image: url('images/02_img.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
 
 /* SECTION 4 : PRIVATE EVENTS */
 
-    .private_events {
-        color: white;
-    }
+.private_events {
+    color: white;
+}
 
-    .private_events p {
-        text-align: start;
-        width: 80%;
-    }
+.private_events p {
+    text-align: start;
+    width: 80%;
+}
 
-    .private_image {
-        background-image: url('images/03_img.jpg');
-        background-size: cover;
-        background-repeat: no-repeat;
-    }
+.private_image {
+    background-image: url('images/03_img.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
 
 /* SECTION 5 : ART FOR SALE */
 
-    .art_sale {
-        height: 700px;
-    }
+.art_sale {
+    height: 700px;
+}
 
-    .text_encart p {
-        font-weight: 300;
-        text-align: center;
-    }
+.text_encart p {
+    font-weight: 300;
+    text-align: center;
+}
 
-    .lot h5 {
-        font-size: 0.8rem;
-    }
+.lot h5 {
+    font-size: 0.8rem;
+}
 
-    .lot .prix_barre {
-        text-decoration: line-through;
-    }
+.lot .prix_barre {
+    text-decoration: line-through;
+}
 
-    .lot .nouveau_prix {
-        font-weight: bold;
-    }
+.lot .nouveau_prix {
+    font-weight: bold;
+}
 
-    .lot img {
-        height: 270px;
-        width: 250px;
-        object-fit: cover;
-    }
+.lot img {
+    height: 270px;
+    width: 250px;
+    object-fit: cover;
+}
 
-    .lot_1 img {
-        object-position: -12px 0px;
-    }
+.lot_1 img {
+    object-position: -12px 0px;
+}
 
-    .lot_2 img{
-        object-position: -137px 0px;
-    }
+.lot_2 img{
+    object-position: -137px 0px;
+}
 
-    .art_sale .btn_site {
-        width: 15%;
-        padding: 0.5rem 0;
-    }
-    
+.art_sale .btn_site {
+    width: 15%;
+    padding: 0.5rem 0;
+}
+
 /* SECTION 6 : HAPPY STUDENTS */
 
-    .happy_students {
-        height: 500px;
-        position: relative;
-        background-image: url('images/07_img.jpg');
-        background-repeat: no-repeat;
-        background-size: cover;
-    }
+.happy_students {
+    height: 500px;
+    position: relative;
+    background-image: url('images/07_img.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
-    .happy_encart {
-        position: absolute;
-        background-color: rgb(208, 208, 208);
-        width: 300px;
-        top: 45%;
-        left: 28%;
-    }
+.happy_encart {
+    position: absolute;
+    background-color: rgb(208, 208, 208);
+    width: 300px;
+    top: 45%;
+    left: 28%;
+}
 
-    .happy_encart hr {
-        width: 15%;
-    }
+.happy_encart hr {
+    width: 15%;
+}
 
-    .happy_encart .citation, .happy_encart .auteur {
-        font-style: italic;
-        width: 100%;
-        margin: 0;
-    }
+.happy_encart .citation, .happy_encart .auteur {
+    font-style: italic;
+    width: 100%;
+    margin: 0;
+}
 
-    .happy_encart .auteur {
-        font-weight: bold;
-    }
+.happy_encart .auteur {
+    font-weight: bold;
+}

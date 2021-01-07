@@ -15,7 +15,7 @@
 
 </div>
 
-<div class="p-5 ligne">
+<div class="ligne p-4">
 
     <hr>
     
@@ -55,19 +55,19 @@
 
 <div class="container d-flex justify-content-center row mt-5 mb-5 follow">
 
-    <div class="col-sm p-2">
+    <div class="col p-2">
         <a href=""><img src="images/facebook.png" alt="Pictogramme Facebook"></a>
     </div>
 
-    <div class="col-sm p-2">
+    <div class="col p-2">
         <a href=""><img src="images/twitter.png" alt="Pictogramme Twitter"></a>
     </div>
 
-    <div class="col-sm p-2">
+    <div class="col p-2">
         <a href=""><img src="images/instagram.png" alt="Pictogramme Instagram"></a>
     </div>
     
-    <div class="col-sm p-2">
+    <div class="col p-2">
         <a href=""><img src="images/youtube.png" alt="Pictogramme YouTube"></a>
     </div>
 

@@ -22,6 +22,9 @@
     <!-- TABLETTE -->
     <link rel="stylesheet" href="css/tablette.css">
 
+    <!-- MOBILE -->
+    <link rel="stylesheet" href="css/mobile.css">
+
     <!-- ANIMATE CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
 
